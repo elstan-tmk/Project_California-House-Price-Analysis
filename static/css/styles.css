@@ -1,0 +1,86 @@
+body {
+    margin: 0 0 50px 0;
+    padding: 0px 0px;
+    background-color:lightseagreen;
+}
+
+#data_bg {
+  background-color: thistle;
+}
+
+.navbar-brand{
+  font-size: 25px;
+  font-style: italic;
+
+}
+
+p{
+  text-align: left; 
+}
+
+marquee{
+  background-color: transparent;
+  color: white
+}
+
+#up1 {
+  padding-left: 100px;
+  height: 30px;
+}
+
+#up2 {
+  padding-left: 200px;
+  height: 50px;
+  font-size: 30px;
+}
+
+#up3 {
+  padding-left: 600px;
+  height: 40px;
+}
+
+#down1 {
+  padding-left: 900px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#down2 {
+  padding-left: 700px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#right1 {
+  font-size: 30px;
+}
+
+
+strong{
+    color: white 
+}
+
+h2{
+  color: green;
+  padding: 14px 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+h4{
+  font-weight: bold;
+}
+
+h6{
+  color: black;
+  padding: 0px 0px;
+  margin: 0px;
+  text-align: right;
+}
+
+.github{
+  padding:0%;
+
+  float: right;
+}
+

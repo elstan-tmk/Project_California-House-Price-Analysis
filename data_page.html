@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+  <meta charset="UTF-8">
+  <title>California House Price Analysis (Data)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <img src="static/Images/logo.png" alt="logo created by Lina" style="width:6%;height:6%;">
+    <a class="navbar-brand text-black" href="index.html">
+      California House Price Analysis (Data)
+    </a>
+    
+    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+ 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" >
+              Menu
+          </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="index.html">Home</a>
+                <a class="dropdown-item" href="data_page.html">Data</a>
+              
+                  <a class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" >
+                    Graphs
+                  </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="https://public.tableau.com/app/profile/oxypetalum/viz/CAHomePricesvs_HouseAgeMedianIncome/heatmap" target="_blank">Correlation Heatmap</a>
+                      <a class="dropdown-item" href="https://public.tableau.com/app/profile/oxypetalum/viz/CAHomePricesvs_HouseAgeMedianIncome/OceanProximity" target="_blank">CA Home Prices vs. Ocean Proximity</a>
+                      <a class="dropdown-item" href="https://public.tableau.com/app/profile/oxypetalum/viz/CAHomePricesvs_HouseAgeMedianIncome/HousePricesvs_VariousFactors" target="_blank">CA House Prices vs. Various Factors</a>
+                    </div>
+
+                <a class="dropdown-item" href="predictions.html">Predictions</a>
+
+              </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <i class="fa fa-github"></i>
+            <img class = 'github', src="static/Images/GitHub-Mark-32px.png" alt="">
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href='https://github.com/elstan-tmk' target="_blank">
+              Elstan
+            </a>
+            <a class="dropdown-item" href='https://github.com/oxypetalumm' target="_blank">Lina
+            </a>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+  </nav>
+
+
+  <div class = 'container'>
+
+    <hr size="1", color="grey", width='100%'>
+    <div class= 'col-sm-12'>
+      <h4>
+        California Housing Data (1990)
+      </h4>
+        <div id="table-area" style="overflow-x:auto; overflow-y:scroll;height: 500px;">
+          <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table-head">Longitude</th>
+                  <th class="table-head">Latitue</th>
+                  <th class="table-head">Home Median Age</th>
+                  <th class="table-head">Total Rooms</th>
+                  <th class="table-head">Total Bedrooms</th>
+                  <th class="table-head">Population</th>
+                  <th class="table-head">Households</th>
+                  <th class="table-head">Median Income</th>
+                  <th class="table-head">Median House Value</th>
+                  <th class="table-head">Ocean Proximity</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class = "table-area"></td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+      </div>  
+
+    </div> 
+  <!-- </div> -->
+</div>
+
+
+
+<div class='container'>
+  <hr size="1", color="grey", width='100%'>
+
+    <h6>
+
+      <p>
+        References:
+      </p>
+      <p>
+        <a class="dropdown-item" href="https://www.kaggle.com/harrywang/housing" target="_blank">
+            "California Housing Data (1990)" (2017). Retrieved 2021, 
+            Kaggle
+            https://www.kaggle.com/harrywang/housing    
+        </a>
+        <a class="dropdown-item" href="https://www.car.org/aboutus/mediacenter/newsreleases/2021releases/apr2021sales" target="_blank">
+          "April home sales and price report" (May 17, 2021). Retrieved 2021, 
+          California Association of Realtors
+          https://www.car.org/aboutus/mediacenter/newsreleases/2021releases/apr2021sales
+      </a>
+        
+      </p>
+
+  
+
+      <p>
+          Credits: 
+          <a href='https://github.com/elstan-tmk' target="_blank">
+            Elstan
+          </a>, 
+          <a href='https://github.com/oxypetalumm' target="_blank">Lina
+          </a>with support from 
+          <!-- <a href='' target="_blank"> -->
+            Thinh, 
+          <!-- </a>  -->        
+          <a href='https://github.com/MoroProductionsDev' target="_blank">
+            & Raul
+          </a>       
+
+      </p>
+      <p>
+          2021
+      </p>
+    </h6>  
+    
+  </div>
+
+
+
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+    <script src="Data/housing.js"></script>
+    <script src="js/app_data_page.js"></script>
+
+
+</body>
+
+
+</html>
