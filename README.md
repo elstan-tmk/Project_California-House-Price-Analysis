@@ -55,64 +55,28 @@ rooms_per_household is slightly more correlated (0.151) with house value than to
 bedrooms_per_room is much more correlated (-0.256) than total_rooms (0.134) and total_bedrooms (0.0497): houses with lower bedroom/room ratio is more expensive: this sort of make sense, more expensive houses may have more offices, dens, playrooms, etc.
 
 
-Housing Values Vs. Median income
+**Housing Values Vs. Median income**
 We can see there are a number of "horizontal lines" in the plot: one clear one at  500,000,one at 450,000, another one at $350,000, and a few other ones. Try to find out why that is happening. If you cannot figure out the reason, removing those data points (if not too many) might be a good idea before feeding the data to the algorithms.
 
-
-CA House Prices vs. Population
+**CA House Prices vs. Population**
 The following geographical data visualization show that the price is related to the location and population density.
 
- 
-
-
-
-
-
-
-
-
-
-
-CA House Prices vs. Ocean Proximity
+**CA House Prices vs. Ocean Proximity**
 As seen on the bar chart, the most expensive houses are the ones near bay, followed by near ocean, less than 1 hour distance from ocean, and lastly inland houses. The shades of color indicate the amount of houses, the darker the color the more house are in those area.
 
-
-
-
-
-
-California House Prices vs. House Age
+**California House Prices vs. House Age**
 The following figure shows the relationship between the House age and the price,  
 
 
- 
- Scikit Learn
- 
-Median House Values vs. Ocean Proximity
-What are the factors that push up home value:
-Ocean proximity? – Yes
-Housing age? – Not necessary
-Population?
-
-
-Model Of Machine Learning:
+## Model Of Machine Learning:
 
 Linear Regression:
 
-![df](static/images/Results/Linear Regression.png)
-
 Decision Tree:
-
-
-
-
 
 Random Forest:
 
-
-
-
-Comparison:
+**Comparison:**
 Random Forest is much better that the previous Linear Regression and Decision Tree. We assume Random Forest model is the best for this Machine Learning Model.
 
 
